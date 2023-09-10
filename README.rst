@@ -19,9 +19,9 @@ Considerations:
 
   .. note:: `theme.js` has to load immediately, not after DOM rendering.
 
+- Split articles into files.
+
 TODO:
 
 - Refer to MDN's style, configure <aside> for 3 layout.
   Theoretically footer should display fine even the content is short.
-
-- Split articles into files.
