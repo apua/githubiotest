@@ -14,3 +14,14 @@ Considerations:
 - Set max width of main content (`<main>`).
 
 - Under HTTP/2, separate contents into files.
+
+- Split theme settings out.
+
+  .. note:: `theme.js` has to load immediately, not after DOM rendering.
+
+TODO:
+
+- Refer to MDN's style, configure <aside> for 3 layout.
+  Theoretically footer should display fine even the content is short.
+
+- Split articles into files.

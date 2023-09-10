@@ -22,3 +22,8 @@ body>header>nav { font-family: mytest; }
   src: url(test.woff) format('woff');
 }
 *:lang(zh) { font-family: mytest; }
+
+
+body>div.container {
+  max-width: 720px;
+}
